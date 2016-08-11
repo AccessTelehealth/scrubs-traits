@@ -17,14 +17,14 @@
 
 @font-face {
   font-family: fontFamily;
-  src: normalFontSrc;
+  src: url('scrubs-theme/fonts/SourceSansPro-Regular.woff');
   font-weight: regular;
   font-weight: normalFontWeight;
 }
 
 @font-face {
   font-family: fontFamily;
-  src: normalFontItalicSrc;
+  src: url('scrubs-theme/fonts/SourceSansPro-RegularIt.woff');
   font-weight: regular;
   font-weight: normalFontWeight;
   font-style: italic;
@@ -32,14 +32,14 @@
 
 @font-face {
   font-family: fontFamily;
-  src: boldFontSrc;
+  src: url('scrubs-theme/fonts/SourceSansPro-Semibold.woff');
   font-weight: bold;
   font-weight: boldFontWeight;
 }
 
 @font-face {
   font-family: fontFamily;
-  src: boldFontItalicSrc;
+  src: url('scrubs-theme/fonts/SourceSansPro-SemiboldIt.woff');
   font-weight: bold;
   font-weight: boldFontWeight;
   font-style: italic;
