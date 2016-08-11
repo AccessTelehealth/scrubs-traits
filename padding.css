@@ -1,0 +1,188 @@
+/* Padding */
+
+@value space1 from 'scrubs-theme/layout.css';
+@value space2 from 'scrubs-theme/layout.css';
+@value space3 from 'scrubs-theme/layout.css';
+@value barHeight from 'scrubs-theme/layout.css';
+
+.p0,
+.p0OnHover:hover,
+.p0OnFocus:focus {
+  padding: 0;
+}
+
+.pt0,
+.pt0OnHover:hover,
+.pt0OnFocus:focus {
+  padding-top: 0;
+}
+
+.pr0,
+.pr0OnHover:hover,
+.pr0OnFocus:focus {
+  padding-right: 0;
+}
+
+.pb0,
+.pb0OnHover:hover,
+.pb0OnFocus:focus {
+  padding-bottom: 0;
+}
+
+.pl0,
+.pl0OnHover:hover,
+.pl0OnFocus:focus {
+  padding-left: 0;
+}
+
+.px0,
+.px0OnHover:hover,
+.px0OnFocus:focus {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.py0,
+.py0OnHover:hover,
+.py0OnFocus:focus {
+  padding-top: 0;
+   padding-bottom: 0;
+}
+
+.p1,
+.p1OnHover:hover,
+.p1OnFocus:focus {
+  padding: space1;
+}
+
+.pt1,
+.pt1OnHover:hover,
+.pt1OnFocus:focus {
+  padding-top: space1;
+}
+
+.pr1,
+.pr1OnHover:hover,
+.pr1OnFocus:focus {
+  padding-right: space1;
+}
+
+.pb1,
+.pb1OnHover:hover,
+.pb1OnFocus:focus {
+  padding-bottom: space1;
+}
+
+.pl1,
+.pl1OnHover:hover,
+.pl1OnFocus:focus {
+  padding-left: space1;
+}
+
+.py1,
+.py1OnHover:hover,
+.py1OnFocus:focus {
+  padding-top: space1;
+  padding-bottom: space1;
+}
+
+.px1,
+.px1OnHover:hover,
+.px1OnFocus:focus {
+  padding-left: space1;
+  padding-right: space1;
+}
+
+.p2,
+.p2OnHover:hover,
+.p2OnFocus:focus {
+  padding: space2;
+}
+
+.pt2,
+.pt2OnHover:hover,
+.pt2OnFocus:focus {
+  padding-top: space2;
+}
+
+.pr2,
+.pr2OnHover:hover,
+.pr2OnFocus:focus {
+  padding-right: space2;
+}
+
+.pb2,
+.pb2OnHover:hover,
+.pb2OnFocus:focus {
+  padding-bottom: space2;
+}
+
+.pl2,
+.pl2OnHover:hover,
+.pl2OnFocus:focus {
+  padding-left: space2;
+}
+
+.py2,
+.py2OnHover:hover,
+.py2OnFocus:focus {
+  padding-top: space2;
+  padding-bottom: space2;
+}
+
+.px2,
+.px2OnHover:hover,
+.px2OnFocus:focus {
+  padding-left: space2;
+  padding-right: space2;
+}
+
+.p3,
+.p3OnHover:hover,
+.p3OnFocus:focus {
+  padding: space3;
+}
+
+.pt3,
+.pt3OnHover:hover,
+.pt3OnFocus:focus {
+  padding-top: space3;
+}
+
+.pr3,
+.pr3OnHover:hover,
+.pr3OnFocus:focus {
+  padding-right: space3;
+}
+
+.pb3,
+.pb3OnHover:hover,
+.pb3OnFocus:focus {
+  padding-bottom: space3;
+}
+
+.pl3,
+.pl3OnHover:hover,
+.pl3OnFocus:focus {
+  padding-left: space3;
+}
+
+.py3,
+.py3OnHover:hover,
+.py3OnFocus:focus {
+  padding-top: space3;
+  padding-bottom: space3;
+}
+
+.px3,
+.px3OnHover:hover,
+.px3OnFocus:focus {
+  padding-left: space3;
+  padding-right: space3;
+}
+
+.ptBar,
+.ptBarOnHover:hover,
+.ptBarOnFocus:focus {
+  padding-top: barHeight;
+}

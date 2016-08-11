@@ -1,0 +1,44 @@
+/* Images */
+
+@value imageSmall from 'scrubs-theme/layout.css';
+@value imageMedium from 'scrubs-theme/layout.css';
+@value imageLarge from 'scrubs-theme/layout.css';
+
+.imageSmall,
+.imageSmallOnHover:hover,
+.imageSmallOnFocus:focus {
+  width: imageSmall;
+  height: imageSmall;
+}
+
+.imageMedium,
+.imageMediumOnHover:hover,
+.imageMediumOnFocus:focus {
+  width: imageMedium;
+  height: imageMedium;
+}
+
+.imageLarge,
+.imageLargeOnHover:hover,
+.imageLargeOnFocus:focus {
+  width: imageLarge;
+  height: imageLarge;
+}
+
+.bgCover,
+.bgCoverOnHover:hover,
+.bgCoverOnFocus:focus {
+  background-size: cover;
+}
+
+.bgContain,
+.bgContainOnHover:hover,
+.bgContainOnFocus:focus {
+  background-size: contain;
+}
+
+.bgCenter,
+.bgCenterOnHover:hover,
+.bgCenterOnFocus:focus {
+  background-position: center;
+}

@@ -1,0 +1,87 @@
+/* Scrubs Border */
+
+@value borderWidth from 'scrubs-theme/layout.css';
+@value borderRadius from 'scrubs-theme/layout.css';
+
+.border,
+.borderOnHover:hover,
+.borderOnFocus:focus {
+  border-style: solid;
+  border-width: borderWidth;
+}
+
+.borderTop,
+.borderTopOnHover:hover,
+.borderTopOnFocus:focus {
+  border-top-style: solid;
+  border-top-width: borderWidth;
+}
+
+.borderRight,
+.borderRightOnHover:hover,
+.borderRightOnFocus:focus {
+  border-right-style: solid;
+  border-right-width: borderWidth;
+}
+
+.borderBottom,
+.borderBottomOnHover:hover,
+.borderBottomOnFocus:focus {
+  border-bottom-style: solid;
+  border-bottom-width: borderWidth;
+}
+
+.borderLeft,
+.borderLeftOnHover:hover,
+.borderLeftOnFocus:focus {
+  border-left-style: solid;
+  border-left-width: borderWidth;
+}
+
+.borderNone,
+.borderNoneOnHover:hover,
+.borderNoneOnFocus:focus {
+  border: 0;
+}
+
+.rounded,
+.roundedOnHover:hover,
+.roundedOnFocus:focus {
+  border-radius: borderRadius;
+}
+
+.circle,
+.circleOnHover:hover,
+.circleOnFocus:focus {
+  border-radius: 50%;
+}
+
+.roundedTop,
+.roundedTopOnHover:hover,
+.roundedTopOnFocus:focus {
+  border-radius: borderRadius borderRadius 0 0;
+}
+
+.roundedRight,
+.roundedRightOnHover:hover,
+.roundedRightOnFocus:focus {
+  border-radius: 0 borderRadius borderRadius 0;
+}
+
+.roundedBottom,
+.roundedBottomOnHover:hover,
+.roundedBottomOnFocus:focus {
+  border-radius: 0 0 borderRadius borderRadius;
+}
+
+.roundedLeft,
+.roundedLeftOnHover:hover,
+.roundedLeftOnFocus:focus {
+  border-radius: borderRadius 0 0 borderRadius;
+}
+
+.notRounded,
+.notRoundedOnHover:hover,
+.notRoundedOnFocus:focus {
+  border-radius: 0;
+}

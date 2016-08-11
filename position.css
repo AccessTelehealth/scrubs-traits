@@ -1,0 +1,72 @@
+/* Position */
+
+@value z1 from 'scrubs-theme/layout.css';
+@value z2 from 'scrubs-theme/layout.css';
+@value z3 from 'scrubs-theme/layout.css';
+@value z4 from 'scrubs-theme/layout.css';
+
+.relative,
+.relativeOnHover:hover,
+.relativeOnFocus:focus {
+  position: relative;
+}
+
+.absolute,
+.absoluteOnHover:hover,
+.absoluteOnFocus:focus {
+  position: absolute;
+}
+
+.fixed,
+.fixedOnHover:hover,
+.fixedOnFocus:focus {
+  position: fixed;
+}
+
+.top0,
+.top0OnHover:hover,
+.top0OnFocus:focus {
+  top: 0;
+}
+
+.right0,
+.right0OnHover:hover,
+.right0OnFocus:focus {
+  right: 0;
+}
+
+.bottom0,
+.bottom0OnHover:hover,
+.bottom0OnFocus:focus {
+  bottom: 0;
+}
+
+.left0,
+.left0OnHover:hover,
+.left0OnFocus:focus {
+  left: 0;
+}
+
+.z1,
+.z1OnHover:hover,
+.z1OnFocus:focus {
+  z-index: z1;
+}
+
+.z2,
+.z2OnHover:hover,
+.z2OnFocus:focus {
+  z-index: z2;
+}
+
+.z3,
+.z3OnHover:hover,
+.z3OnFocus:focus {
+  z-index: z3;
+}
+
+.z4,
+.z4OnHover:hover,
+.z4OnFocus:focus {
+  z-index: z4;
+}
