@@ -106,3 +106,9 @@
 .borderBoxOnFocus:focus {
   box-sizing: border-box;
 }
+
+.whiteSpacePre,
+.whiteSpacePreOnHover:hover,
+.whiteSpacePreOnFocus:focus {
+  white-space: pre;
+}
