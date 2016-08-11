@@ -16,7 +16,7 @@
     "url": "https://github.com/dr-me/scrubs-traits/issues"
   },
   "homepage": "https://github.com/dr-me/scrubs-traits#readme",
-  "devDependencies": {
+  "dependencies": {
     "scrubs-theme": "github:dr-me/scrubs-theme"
   }
 }
