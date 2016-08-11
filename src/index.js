@@ -20,6 +20,11 @@ export default [
     description: 'Adjust vertical alignment for table cells',
   },
   {
+    name: 'borders',
+    classes: borders,
+    description: 'Rounded circular and border ',
+  },
+  {
     name: 'colours',
     classes: colours,
     description: 'Text, fill, background and border colours',
