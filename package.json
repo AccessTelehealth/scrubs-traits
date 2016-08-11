@@ -1,0 +1,22 @@
+{
+  "name": "scrubs-traits",
+  "version": "1.0.0",
+  "description": "Traits for Scrubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr-me/scrubs-traits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dr-me/scrubs-traits/issues"
+  },
+  "homepage": "https://github.com/dr-me/scrubs-traits#readme",
+  "devDependencies": {
+    "scrubs-theme": "github:dr-me/scrubs-theme"
+  }
+}
