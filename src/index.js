@@ -1,17 +1,17 @@
 /* @flow */
 
-import align from './align.css'
-import borders from './borders.css'
-import colours from './colours.css'
-import flexbox from './flexbox.css'
-import hide from './hide.css'
-import icons from './icons.css'
-import images from './images.css'
-import layout from './layout.css'
-import margin from './margin.css'
-import padding from './padding.css'
-import position from './position.css'
-import typography from './typography.css'
+import align from '../align.css'
+import borders from '../borders.css'
+import colours from '../colours.css'
+import flexbox from '../flexbox.css'
+import hide from '../hide.css'
+import icons from '../icons.css'
+import images from '../images.css'
+import layout from '../layout.css'
+import margin from '../margin.css'
+import padding from '../padding.css'
+import position from '../position.css'
+import typography from '../typography.css'
 
 export default [
   {
