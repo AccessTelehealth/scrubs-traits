@@ -1,0 +1,26 @@
+/* Icons */
+
+@value iconSmall from 'scrubs-theme/layout.css';
+@value iconMedium from 'scrubs-theme/layout.css';
+@value iconLarge from 'scrubs-theme/layout.css';
+
+.iconSmall,
+.iconSmallOnHover:hover,
+.iconSmallOnFocus:focus {
+  width: iconSmall;
+  height: iconSmall;
+}
+
+.iconMedium,
+.iconMediumOnHover:hover,
+.iconMediumOnFocus:focus {
+  width: iconMedium;
+  height: iconMedium;
+}
+
+.iconLarge,
+.iconLargeOnHover:hover,
+.iconLargeOnFocus:focus {
+  width: iconLarge;
+  height: iconLarge;
+}

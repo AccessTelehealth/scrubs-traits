@@ -1,0 +1,17 @@
+/* Hide */
+
+.hide,
+.hideOnHover:hover,
+.hideOnFocus:focus {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.displayNone,
+.displayNoneOnHover:hover,
+.displayNoneOnFocus:focus {
+  display: none !important;
+}

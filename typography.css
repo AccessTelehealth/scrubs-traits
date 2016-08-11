@@ -1,0 +1,200 @@
+/* Typography */
+
+@value h1 from 'scrubs-theme/type.css';
+@value h2 from 'scrubs-theme/type.css';
+@value h3 from 'scrubs-theme/type.css';
+@value lineHeight1 from 'scrubs-theme/type.css';
+@value lineHeight2 from 'scrubs-theme/type.css';
+@value lineHeight3 from 'scrubs-theme/type.css';
+@value fontFamily from 'scrubs-theme/type.css';
+@value normalFontSrc from 'scrubs-theme/type.css';
+@value normalFontItalicSrc from 'scrubs-theme/type.css';
+@value normalFontWeight from 'scrubs-theme/type.css';
+@value boldFontSrc from 'scrubs-theme/type.css';
+@value boldFontItalicSrc from 'scrubs-theme/type.css';
+@value boldFontWeight from 'scrubs-theme/type.css';
+
+
+@font-face {
+  font-family: fontFamily;
+  src: normalFontSrc;
+  font-weight: regular;
+  font-weight: normalFontWeight;
+}
+
+@font-face {
+  font-family: fontFamily;
+  src: normalFontItalicSrc;
+  font-weight: regular;
+  font-weight: normalFontWeight;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: fontFamily;
+  src: boldFontSrc;
+  font-weight: bold;
+  font-weight: boldFontWeight;
+}
+
+@font-face {
+  font-family: fontFamily;
+  src: boldFontItalicSrc;
+  font-weight: bold;
+  font-weight: boldFontWeight;
+  font-style: italic;
+}
+
+.h1,
+.h1OnHover:hover,
+.h1OnFocus:focus {
+  font-size: h1;
+}
+
+.h2,
+.h2OnHover:hover,
+.h2OnFocus:focus {
+  font-size: h2;
+}
+
+.h3,
+.h3OnHover:hover,
+.h3OnFocus:focus {
+  font-size: h3;
+}
+
+.sans,
+.sansOnHover:hover,
+.sansOnFocus:focus {
+  font-family: fontFamily;
+}
+
+.fontFamilyInherit,
+.fontFamilyInheritOnHover:hover,
+.fontFamilyInheritOnFocus:focus {
+  font-family: inherit;
+}
+
+.fontSizeInherit,
+.fontSizeInheritOnHover:hover,
+.fontSizeInheritOnFocus:focus {
+  font-size: inherit;
+}
+
+.textDecorationNone,
+.textDecorationNoneOnHover:hover,
+.textDecorationNoneOnFocus:focus {
+  text-decoration: none;
+}
+
+.bold,
+.boldOnHover:hover,
+.boldOnFocus:focus {
+  font-weight: boldFontWeight;
+}
+
+.regular,
+.regularOnHover:hover,
+.regularOnFocus:focus {
+  font-weight: normal;
+}
+
+.italic,
+.italicOnHover:hover,
+.italicOnFocus:focus {
+  font-style: italic;
+}
+
+.caps,
+.capsOnHover:hover,
+.capsOnFocus:focus {
+  text-transform: uppercase;
+}
+
+.leftAlign,
+.leftAlignOnHover:hover,
+.leftAlignOnFocus:focus {
+  text-align: left;
+}
+
+.center,
+.centerOnHover:hover,
+.centerOnFocus:focus {
+  text-align: center;
+}
+
+.rightAlign,
+.rightAlignOnHover:hover,
+.rightAlignOnFocus:focus {
+  text-align: right;
+}
+
+.justify,
+.justifyOnHover:hover,
+.justifyOnFocus:focus {
+  text-align: justify;
+}
+
+.nowrap,
+.nowrapOnHover:hover,
+.nowrapOnFocus:focus {
+  white-space: nowrap;
+}
+
+.breakWord,
+.breakWordOnHover:hover,
+.breakWordOnFocus:focus {
+  word-wrap: break-word;
+}
+
+.lineHeight1,
+.lineHeight1OnHover:hover,
+.lineHeight1OnFocus:focus {
+  line-height: lineHeight1;
+}
+
+.lineHeight2,
+.lineHeight2OnHover:hover,
+.lineHeight2OnFocus:focus {
+  line-height: lineHeight2;
+}
+
+.lineHeight3,
+.lineHeight3OnHover:hover,
+.lineHeight3OnFocus:focus {
+  line-height: lineHeight3;
+}
+
+.listStyleNone,
+.listStyleNoneOnHover:hover,
+.listStyleNoneOnFocus:focus {
+  list-style: none;
+}
+
+.underline,
+.underlineOnHover:hover,
+.underlineOnFocus:focus {
+  text-decoration: underline;
+}
+
+.antialiased,
+.antialiasedOnHover:hover,
+.antialiasedOnFocus:focus {
+  -webkit-font-smoothing: antialiased;
+}
+
+.truncate,
+.truncateOnHover:hover,
+.truncateOnFocus:focus {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.listReset,
+.listResetOnHover:hover,
+.listResetOnFocus:focus {
+  list-style: none;
+  padding-left: 0;
+}

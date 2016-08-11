@@ -22,7 +22,7 @@ export default [
   {
     name: 'borders',
     classes: borders,
-    description: 'Rounded circular and border ',
+    description: 'Rounded circular and border',
   },
   {
     name: 'colours',
