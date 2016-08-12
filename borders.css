@@ -1,7 +1,7 @@
 /* Scrubs Border */
 
-@value borderWidth from 'scrubs-theme/layout.css';
-@value borderRadius from 'scrubs-theme/layout.css';
+@value borderWidth from 'theme/layout.css';
+@value borderRadius from 'theme/layout.css';
 
 .border,
 .borderOnHover:hover,

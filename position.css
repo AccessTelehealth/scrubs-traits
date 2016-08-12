@@ -1,9 +1,9 @@
 /* Position */
 
-@value z1 from 'scrubs-theme/layout.css';
-@value z2 from 'scrubs-theme/layout.css';
-@value z3 from 'scrubs-theme/layout.css';
-@value z4 from 'scrubs-theme/layout.css';
+@value z1 from 'theme/layout.css';
+@value z2 from 'theme/layout.css';
+@value z3 from 'theme/layout.css';
+@value z4 from 'theme/layout.css';
 
 .relative,
 .relativeOnHover:hover,

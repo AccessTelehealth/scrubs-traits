@@ -1,8 +1,8 @@
 /* Icons */
 
-@value iconSmall from 'scrubs-theme/layout.css';
-@value iconMedium from 'scrubs-theme/layout.css';
-@value iconLarge from 'scrubs-theme/layout.css';
+@value iconSmall from 'theme/layout.css';
+@value iconMedium from 'theme/layout.css';
+@value iconLarge from 'theme/layout.css';
 
 .iconSmall,
 .iconSmallOnHover:hover,

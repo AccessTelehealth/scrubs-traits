@@ -1,9 +1,9 @@
 /* Padding */
 
-@value space1 from 'scrubs-theme/layout.css';
-@value space2 from 'scrubs-theme/layout.css';
-@value space3 from 'scrubs-theme/layout.css';
-@value barHeight from 'scrubs-theme/layout.css';
+@value space1 from 'theme/layout.css';
+@value space2 from 'theme/layout.css';
+@value space3 from 'theme/layout.css';
+@value barHeight from 'theme/layout.css';
 
 .p0,
 .p0OnHover:hover,

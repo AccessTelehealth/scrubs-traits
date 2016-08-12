@@ -1,12 +1,12 @@
 /* Colours */
 
-@value blue from 'scrubs-theme/palette.css';
-@value blueDark from 'scrubs-theme/palette.css';
-@value grey from 'scrubs-theme/palette.css';
-@value greyDark from 'scrubs-theme/palette.css';
-@value red from 'scrubs-theme/palette.css';
-@value offWhite from 'scrubs-theme/palette.css';
-@value white from 'scrubs-theme/palette.css';
+@value blue from 'theme/palette.css';
+@value blueDark from 'theme/palette.css';
+@value grey from 'theme/palette.css';
+@value greyDark from 'theme/palette.css';
+@value red from 'theme/palette.css';
+@value offWhite from 'theme/palette.css';
+@value white from 'theme/palette.css';
 
 .textBlue,
 .textBlueOnHover:hover,

@@ -1,30 +1,30 @@
 /* Typography */
 
-@value h1 from 'scrubs-theme/type.css';
-@value h2 from 'scrubs-theme/type.css';
-@value h3 from 'scrubs-theme/type.css';
-@value lineHeight1 from 'scrubs-theme/type.css';
-@value lineHeight2 from 'scrubs-theme/type.css';
-@value lineHeight3 from 'scrubs-theme/type.css';
-@value fontFamily from 'scrubs-theme/type.css';
-@value normalFontSrc from 'scrubs-theme/type.css';
-@value normalFontItalicSrc from 'scrubs-theme/type.css';
-@value normalFontWeight from 'scrubs-theme/type.css';
-@value boldFontSrc from 'scrubs-theme/type.css';
-@value boldFontItalicSrc from 'scrubs-theme/type.css';
-@value boldFontWeight from 'scrubs-theme/type.css';
+@value h1 from 'theme/type.css';
+@value h2 from 'theme/type.css';
+@value h3 from 'theme/type.css';
+@value lineHeight1 from 'theme/type.css';
+@value lineHeight2 from 'theme/type.css';
+@value lineHeight3 from 'theme/type.css';
+@value fontFamily from 'theme/type.css';
+@value normalFontSrc from 'theme/type.css';
+@value normalFontItalicSrc from 'theme/type.css';
+@value normalFontWeight from 'theme/type.css';
+@value boldFontSrc from 'theme/type.css';
+@value boldFontItalicSrc from 'theme/type.css';
+@value boldFontWeight from 'theme/type.css';
 
 
 @font-face {
   font-family: fontFamily;
-  src: url('scrubs-theme/fonts/SourceSansPro-Regular.woff');
+  src: url('theme/fonts/SourceSansPro-Regular.woff');
   font-weight: regular;
   font-weight: normalFontWeight;
 }
 
 @font-face {
   font-family: fontFamily;
-  src: url('scrubs-theme/fonts/SourceSansPro-RegularIt.woff');
+  src: url('theme/fonts/SourceSansPro-RegularIt.woff');
   font-weight: regular;
   font-weight: normalFontWeight;
   font-style: italic;
@@ -32,14 +32,14 @@
 
 @font-face {
   font-family: fontFamily;
-  src: url('scrubs-theme/fonts/SourceSansPro-Semibold.woff');
+  src: url('theme/fonts/SourceSansPro-Semibold.woff');
   font-weight: bold;
   font-weight: boldFontWeight;
 }
 
 @font-face {
   font-family: fontFamily;
-  src: url('scrubs-theme/fonts/SourceSansPro-SemiboldIt.woff');
+  src: url('theme/fonts/SourceSansPro-SemiboldIt.woff');
   font-weight: bold;
   font-weight: boldFontWeight;
   font-style: italic;

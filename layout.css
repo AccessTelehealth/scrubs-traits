@@ -1,5 +1,5 @@
 /* Layout */
-@value barHeight from 'scrubs-theme/layout.css';
+@value barHeight from 'theme/layout.css';
 
 .inline,
 .inlineOnHover:hover,

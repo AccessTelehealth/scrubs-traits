@@ -1,8 +1,8 @@
 /* Images */
 
-@value imageSmall from 'scrubs-theme/layout.css';
-@value imageMedium from 'scrubs-theme/layout.css';
-@value imageLarge from 'scrubs-theme/layout.css';
+@value imageSmall from 'theme/layout.css';
+@value imageMedium from 'theme/layout.css';
+@value imageLarge from 'theme/layout.css';
 
 .imageSmall,
 .imageSmallOnHover:hover,
