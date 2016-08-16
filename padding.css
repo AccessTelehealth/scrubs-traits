@@ -186,3 +186,9 @@
 .ptBarOnFocus:focus {
   padding-top: barHeight;
 }
+
+.pt100,
+.pt100:hover,
+.pt100:focus {
+  padding-top: 100%;
+}
