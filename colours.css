@@ -28,7 +28,8 @@
 
 .textGreyDark,
 .textGreyDarkOnHover:hover,
-.textGreyDarkOnFocus:focus {
+.textGreyDarkOnFocus:focus,
+input:focus + .textGreyDarkOnSiblingInputFocus {
   color: greyDark;
 }
 
