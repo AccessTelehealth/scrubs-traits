@@ -3,6 +3,8 @@
 @value h1 from 'theme/type.css';
 @value h2 from 'theme/type.css';
 @value h3 from 'theme/type.css';
+@value h4 from 'theme/type.css';
+@value h5 from 'theme/type.css';
 @value lineHeight1 from 'theme/type.css';
 @value lineHeight2 from 'theme/type.css';
 @value lineHeight3 from 'theme/type.css';
@@ -61,6 +63,18 @@
 .h3OnHover:hover,
 .h3OnFocus:focus {
   font-size: h3;
+}
+
+.h4,
+.h4OnHover:hover,
+.h4OnFocus:focus {
+  font-size: h4;
+}
+
+.h5,
+.h5OnHover:hover,
+.h5OnFocus:focus {
+  font-size: h5;
 }
 
 .sans,

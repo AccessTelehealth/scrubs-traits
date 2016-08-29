@@ -1,41 +1,77 @@
 /* Scrubs Border */
 
-@value borderWidth from 'theme/layout.css';
+@value borderWidthSmall from 'theme/layout.css';
+@value borderWidthLarge from 'theme/layout.css';
 @value borderRadius from 'theme/layout.css';
 
-.border,
-.borderOnHover:hover,
-.borderOnFocus:focus {
+.borderSmall,
+.borderSmallOnHover:hover,
+.borderSmallOnFocus:focus {
   border-style: solid;
-  border-width: borderWidth;
+  border-width: borderWidthSmall;
 }
 
-.borderTop,
-.borderTopOnHover:hover,
-.borderTopOnFocus:focus {
+.borderSmallTop,
+.borderSmallTopOnHover:hover,
+.borderSmallTopOnFocus:focus {
   border-top-style: solid;
-  border-top-width: borderWidth;
+  border-top-width: borderWidthSmall;
 }
 
-.borderRight,
-.borderRightOnHover:hover,
-.borderRightOnFocus:focus {
+.borderSmallRight,
+.borderSmallRightOnHover:hover,
+.borderSmallRightOnFocus:focus {
   border-right-style: solid;
-  border-right-width: borderWidth;
+  border-right-width: borderWidthSmall;
 }
 
-.borderBottom,
-.borderBottomOnHover:hover,
-.borderBottomOnFocus:focus {
+.borderSmallBottom,
+.borderSmallBottomOnHover:hover,
+.borderSmallBottomOnFocus:focus {
   border-bottom-style: solid;
-  border-bottom-width: borderWidth;
+  border-bottom-width: borderWidthSmall;
 }
 
-.borderLeft,
-.borderLeftOnHover:hover,
-.borderLeftOnFocus:focus {
+.borderSmallLeft,
+.borderSmallLeftOnHover:hover,
+.borderSmallLeftOnFocus:focus {
   border-left-style: solid;
-  border-left-width: borderWidth;
+  border-left-width: borderWidthSmall;
+}
+
+.borderLarge,
+.borderLargeOnHover:hover,
+.borderLargeOnFocus:focus {
+  border-style: solid;
+  border-width: borderWidthLarge;
+}
+
+.borderLargeTop,
+.borderLargeTopOnHover:hover,
+.borderLargeTopOnFocus:focus {
+  border-top-style: solid;
+  border-top-width: borderWidthLarge;
+}
+
+.borderLargeRight,
+.borderLargeRightOnHover:hover,
+.borderLargeRightOnFocus:focus {
+  border-right-style: solid;
+  border-right-width: borderWidthLarge;
+}
+
+.borderLargeBottom,
+.borderLargeBottomOnHover:hover,
+.borderLargeBottomOnFocus:focus {
+  border-bottom-style: solid;
+  border-bottom-width: borderWidthLarge;
+}
+
+.borderLargeLeft,
+.borderLargeLeftOnHover:hover,
+.borderLargeLeftOnFocus:focus {
+  border-left-style: solid;
+  border-left-width: borderWidthLarge;
 }
 
 .borderNone,
