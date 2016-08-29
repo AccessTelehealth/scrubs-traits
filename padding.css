@@ -3,6 +3,7 @@
 @value space1 from 'theme/layout.css';
 @value space2 from 'theme/layout.css';
 @value space3 from 'theme/layout.css';
+@value space4 from 'theme/layout.css';
 @value barHeight from 'theme/layout.css';
 
 .p0,
@@ -179,6 +180,50 @@
 .px3OnFocus:focus {
   padding-left: space3;
   padding-right: space3;
+}
+
+.p4,
+.p4OnHover:hover,
+.p4OnFocus:focus {
+  padding: space4;
+}
+
+.pt4,
+.pt4OnHover:hover,
+.pt4OnFocus:focus {
+  padding-top: space4;
+}
+
+.pr4,
+.pr4OnHover:hover,
+.pr4OnFocus:focus {
+  padding-right: space4;
+}
+
+.pb4,
+.pb4OnHover:hover,
+.pb4OnFocus:focus {
+  padding-bottom: space4;
+}
+
+.pl4,
+.pl4OnHover:hover,
+.pl4OnFocus:focus {
+  padding-left: space4;
+}
+
+.px4,
+.px4OnHover:hover,
+.px4OnFocus:focus {
+  padding-left: space4;
+  padding-right: space4;
+}
+
+.py4,
+.py4OnHover:hover,
+.py4OnFocus:focus {
+  padding-top: space4;
+   padding-bottom: space4;
 }
 
 .ptBar,
