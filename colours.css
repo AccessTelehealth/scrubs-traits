@@ -1,6 +1,7 @@
 /* Colours */
 
 @value blue from 'theme/palette.css';
+@value blueOpaque from 'theme/palette.css';
 @value blueDark from 'theme/palette.css';
 @value grey from 'theme/palette.css';
 @value greyDark from 'theme/palette.css';
@@ -127,6 +128,11 @@ input:focus + .textGreyDarkOnSiblingInputFocus {
 .bgBlueDarkOnHover:hover,
 .bgBlueDarkOnFocus:focus {
   background-color: blueDark;
+}
+.bgBlueOpaque,
+.bgBlueOpaqueOnHover:hover,
+.bgBlueOpaqueOnFocus:focus {
+  background-color: blueOpaque;
 }
 
 .bgGrey,
