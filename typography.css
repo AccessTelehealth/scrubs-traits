@@ -162,6 +162,12 @@
   word-wrap: break-word;
 }
 
+.lineHeight0,
+.lineHeight0OnHover:hover,
+.lineHeight0OnFocus:focus {
+  line-height: 0;
+}
+
 .lineHeight1,
 .lineHeight1OnHover:hover,
 .lineHeight1OnFocus:focus {
