@@ -80,16 +80,17 @@
   border: 0;
 }
 
-.rounded,
-.roundedOnHover:hover,
-.roundedOnFocus:focus {
-  border-radius: borderRadius;
-}
 
 .circle,
 .circleOnHover:hover,
 .circleOnFocus:focus {
-  border-radius: 50%;
+  border-radius: 9999px;
+}
+
+.rounded,
+.roundedOnHover:hover,
+.roundedOnFocus:focus {
+  border-radius: borderRadius;
 }
 
 .roundedTop,
